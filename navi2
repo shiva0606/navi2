@@ -1,12 +1,12 @@
 #!/bin/bash
 class Faculty
 {
-float total_sal=0, salary=30000;
+float total_sal=0, salary=40000;
 }
 
 class HRA extends Faculty
 {
-float hra=3000;
+float hra=4000;
 }
 
 class DA extends HRA
