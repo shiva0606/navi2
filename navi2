@@ -1,22 +1,22 @@
 #!/bin/bash
 class Faculty
 {
-float total_sal=0, salary=60000;
+float total_sal=0, salary=100000;
 }
 
 class HRA extends Faculty
 {
-float hra=6000;
+float hra=7000;
 }
 
 class DA extends HRA
 {
-float da=4000;
+float da=7000;
 }
 
 class Science extends DA
 {
-float bonous=4000;
+float bonous=7000;
 public static void main(String args[])
 {
 Science obj=new Science();
